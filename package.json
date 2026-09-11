@@ -1,0 +1,9 @@
+{
+  "name": "blue-amaya-developments",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "npx serve dist -l 3000",
+    "build": "node -e \"const fs=require('fs');if(!fs.existsSync('dist/index.html'))process.exit(1);console.log('Static site ready: dist/index.html')\""
+  }
+}
