@@ -1,7 +1,7 @@
 {
   "version": 2,
   "public": true,
+  "outputDirectory": "dist",
   "cleanUrls": true,
-  "trailingSlash": false,
-  "rewrites": [{ "source": "/(.*)", "destination": "/dist/$1" }]
+  "trailingSlash": false
 }
